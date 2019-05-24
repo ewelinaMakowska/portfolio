@@ -168,6 +168,32 @@ h2 {
     margin-top: 10vh;
 }
 
+/*------------------------------PROJECTS--------------------------*/
+
+.projects-list {
+    list-style: none;
+}
+
+.projects-list li {
+    color: #333; 
+    display: inline-block;
+    margin-left: 5%;
+    transform: scale(0.9);
+   
+}
+
+.projects-list li:hover {
+    color: #333; 
+    display: inline-block;
+    margin-left: 5%;
+    transform: scale(1);
+     transition: all 0.3s;
+}
+
+.project-img {
+    width: 500px;
+}
+
 #js--projects {
     background-color: white;
 }
@@ -179,7 +205,7 @@ h2 {
 }
 
 .container-img {
-    background: white;
+    background: black;
      width: 300px;
     height: 400px;  
 }
@@ -205,11 +231,12 @@ margin-left: 55%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: opacity 0.5s;
-    
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 .img-hobby-1:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .img-hobby-2 {
@@ -220,10 +247,12 @@ margin-left: 55%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: opacity 0.5s;
+    opacity: 0.7;
+     cursor: pointer;
 }
 
 .img-hobby-2:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .img-hobby-3 {
@@ -234,10 +263,12 @@ margin-left: 55%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: opacity 0.5s;
+    opacity: 0.7;
+     cursor: pointer;
 }
 
 .img-hobby-3:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .img-hobby-4 {
@@ -248,10 +279,12 @@ margin-left: 55%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: opacity 0.5s;
+    opacity: 0.7;
+     cursor: pointer;
 }
 
 .img-hobby-4:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .img-hobby-5 {
@@ -262,10 +295,12 @@ margin-left: 55%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: opacity 0.5s;
+    opacity: 0.7;
+     cursor: pointer;
 }
 
 .img-hobby-5:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .img-hobby-6 {
@@ -276,11 +311,12 @@ margin-left: 55%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: opacity 0.5s;
-    
+    opacity: 0.7;
+     cursor: pointer;
 }
 
 .img-hobby-6:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 #container-img-4 {
@@ -313,33 +349,44 @@ footer {
     left: 15%;
     top: 12%;
     width: 70%; 
-    height: 80%; 
-    
+    height: 80%;   
 }
 
 #modal {
  visibility: hidden;
 }
 
-.modal-img {
-    max-width: 800px;
-    margin: 0 0px 0 10vh;
+.modal-img-container {
+    background-image: url(messenger.jpg);
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.5s;
+    position: fixed;
+    left: 21%;
+    top: 20%;
 }
 
 .desc {
-    text-align: center;
-    text-align: justify;
-    padding-left: 40%;
-    padding-top: 2%;
-    margin-bottom: 3%;
+   position: fixed;
+    right:50%;
+    bottom: 10%
 }
 
 #close {
-    font-size: 50px; 
-    z-index: 2;
+    font-size: 50px;
     cursor: pointer;
+    position: fixed;
+    right: 18%;
+    top: 15%
 }
 
+#arrow-left {
+    font-size: 30px; 
+    cursor: pointer;
+}
 
 /*---------------------------------FORM----------------------------*/
 
@@ -352,6 +399,8 @@ form {
 footer {
     background-color: #003c5c;
     color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 #location {
@@ -360,6 +409,21 @@ footer {
 
 #around-the-web {
     float: right;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+
+.footer-list {
+    margin-top: 20px;
+    list-style: none;
+    float: right;
+}
+
+.footer-list li {
+    display: inline-block;
+    margin-right: 6vh;
+    font-size: 190%
 }
 /*-----------------FONTS---------------------*/
 /*font-family: 'Montserrat', sans-serif; */
