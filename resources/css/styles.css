@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #2e2e2e;
+    font-family: "Lato", 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+section {
+    padding: 80px 0;
+}
+
+header {
+    background-color: #003c5c;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    color: white;
+    padding: 2vh 0 2vh 0;
+}
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #2e91af;
+    transition: color 0.3s;
+}
+/*---------------------NAV--------------------------*/
+#my-name {
+    float: left;
+    color: white;
+    font-size: 180%;
+    font-weight: 700;
+    margin: 2vh 0 2vh 0;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    color: white;
+    font-size: 120%;
+    font-weight: 700;
+    margin: 3vh 0 2vh 0vh;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding-left: 2vh;
+}
+
+
+/*----------------------BODY----------------------*/
+#js--intro {
+    background-color: #2e91af;
+    color: white;
+}
+
+#js--projects {
+    background-color: #2e91af;
+    color: white;
+}
+
+#js--my-photo {
+    height: 400px;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+   text-align: center;
+    font-size: 300%;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color:white;
+}
+
+h1:after {
+    display: block;
+    height: 4px;
+    background-color: #fff;
+    content: " ";
+    width: 300px;
+    margin: 30px auto 0 auto;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.h1-dark {
+    text-align: center;
+    font-size: 300%;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    color: #333;
+}
+
+.h1-dark:after {
+    display: block;
+    height: 4px;
+    background-color: #333;
+    content: " ";
+    width: 300px;
+    margin: 30px auto 0 auto;
+}
+
+#skills-gallery {
+    margin-left: 20vh;
+}
+
+.skill-img {
+    filter: brightness(200%);
+}
+
+#js--about {
+    background-color: #2e91af;
+}
+
+.about-text {
+    color: white;
+    font-size: 140%;
+    text-align: justify;
+    padding-left: 10%;
+}
+
+.btn {
+    border: 2px solid white;
+    padding: 2%;
+    border-radius: 5px; 
+   
+}
+
+.btn:hover {
+    color: #333;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.btn i:hover {
+    color: #333;
+}
+
+#btn-resume {
+    margin-left: 60vh;
+}
+
+#row-btn {
+    margin-top: 10vh;
+}
+
+#js--projects {
+    background-color: white;
+}
+
+/*---------------------------HOBBY GALLERY----------------------------------------------------*/
+
+#js--hobby {
+    background-color: #2e91af;
+}
+
+.container-img {
+    background: white;
+     width: 300px;
+    height: 400px;  
+}
+
+#container-img-1 {
+margin-left: 10%; 
+}
+
+#container-img-2 {
+margin-left: 35%; 
+}
+
+#container-img-3 {
+margin-left: 55%; 
+}
+
+
+.img-hobby-1 {
+    background-image: url(messenger.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.5s;
+    
+}
+
+.img-hobby-1:hover {
+    opacity: 0.3;
+}
+
+.img-hobby-2 {
+    background-image: url(self-portrait.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.5s;
+}
+
+.img-hobby-2:hover {
+    opacity: 0.3;
+}
+
+.img-hobby-3 {
+    background-image: url(mountains.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.5s;
+}
+
+.img-hobby-3:hover {
+    opacity: 0.3;
+}
+
+.img-hobby-4 {
+    background-image: url(mage-portrait.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.5s;
+}
+
+.img-hobby-4:hover {
+    opacity: 0.3;
+}
+
+.img-hobby-5 {
+    background-image: url(castle.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.5s;
+}
+
+.img-hobby-5:hover {
+    opacity: 0.3;
+}
+
+.img-hobby-6 {
+    background-image: url(young-mage-concept.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.5s;
+    
+}
+
+.img-hobby-6:hover {
+    opacity: 0.3;
+}
+
+#container-img-4 {
+margin-left: 10%;
+    margin-top: 5%;
+}
+
+#container-img-5 {
+margin-left: 35%; 
+    margin-top: 5%;
+}
+
+#container-img-6 {
+margin-left: 55%; 
+    margin-top: 5%;
+}
+
+
+footer {
+    background-color: #003c5c;
+}
+
+/*------------------------------MODAL----------------------------------*/
+
+.modal {
+    z-index: 1;
+    background-color: white;
+    color: #333;
+    position: fixed; 
+    left: 15%;
+    top: 12%;
+    width: 70%; 
+    height: 80%; 
+    
+}
+
+#modal {
+ visibility: hidden;
+}
+
+.modal-img {
+    max-width: 800px;
+    margin: 0 0px 0 10vh;
+}
+
+.desc {
+    text-align: center;
+    text-align: justify;
+    padding-left: 40%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+
+#close {
+    font-size: 50px; 
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+/*---------------------------------FORM----------------------------*/
+
+form {
+    
+}
+
+
+/*-----------------------FOOTER------------------------------------*/
+footer {
+    background-color: #003c5c;
+    color: white;
+}
+
+#location {
+    float: left;
+}
+
+#around-the-web {
+    float: right;
+}
+/*-----------------FONTS---------------------*/
+/*font-family: 'Montserrat', sans-serif; */
+
+/*---------------COLORS------------------------*/
+/*
+dark grey
+dark blue
+blue
+warm
+white
+*/
