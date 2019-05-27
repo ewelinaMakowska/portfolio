@@ -391,10 +391,54 @@ footer {
 /*---------------------------------FORM----------------------------*/
 
 form {
-    
+     width: 60%;
+    margin: 0 auto;
+    color: #898989;
+   
 }
 
+textarea {
+    resize: none;
+     border: 0;
+    border-bottom: 1px solid #898989;
+    margin: 1vh;
+    height: 100px;
+    width: 100%;
+}
 
+input {
+    border: 0;
+    border-bottom: 1px solid #898989;
+    margin: 1vh;
+    padding: 5px;
+    width: 100%;
+}
+
+.label {
+ display: inline;
+   float: left;
+   text-align: right;
+   width: 6em;
+   margin-right: 1vh;
+   margin-top: 1vh;
+}
+
+#sendit {
+    border: 2px solid white;
+    padding: 2%;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+#sendit:hover {
+    background-color: #2e91af;
+    transition: 0.3s;
+    color: white;
+}
+
+*:focus {
+    outline: none;
+}
 /*-----------------------FOOTER------------------------------------*/
 footer {
     background-color: #003c5c;
@@ -403,8 +447,16 @@ footer {
     padding-bottom: 3vh;
 }
 
-#location {
+.location {
     float: left;
+    text-align: center;
+    line-height: 1.5
+}
+
+.upper {
+   font-family: 'Montserrat';
+   text-transform: uppercase; 
+
 }
 
 #around-the-web {
@@ -424,6 +476,16 @@ footer {
     display: inline-block;
     margin-right: 6vh;
     font-size: 190%
+}
+
+.end {
+    background-color: #031422;
+    color: white;
+    margin: 0;
+    padding: 2vh;
+    text-align: center;
+    font-weight: 100;
+    font-size: 70%
 }
 /*-----------------FONTS---------------------*/
 /*font-family: 'Montserrat', sans-serif; */

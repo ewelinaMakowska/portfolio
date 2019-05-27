@@ -200,10 +200,10 @@
              <h1 class="h1-dark">Contact me</h1>
               
             <div class="row">
-                <form>
+                <form method="post" action="#" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label for="name">Name</label>
+                            <label class="label" for="name">Name:</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="text" name="name" id="name" placeholder="Your name" required>
@@ -212,7 +212,7 @@
             
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label for="email">E-mail</label>
+                            <label class="label" for="email">E-mail:</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="email" name="email" id="email" placeholder="Your e-mail address" required>
@@ -221,7 +221,7 @@
             
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label>Drop me a line</label>
+                            <label class="label">Drop me a line:</label>
                         </div>
                         <div class="col span-2-of-3">
                         <textarea name="message" placeholder="Your message"></textarea>
@@ -233,7 +233,7 @@
                             <label>&nbsp</label>
                         </div>
                         <div class="col span-2-of-3">
-                        <input type="submit" value="Send it!">
+                        <input id="sendit" type="submit" value="Send it!">
                         </div>
                     </div>
                 </form>
@@ -245,10 +245,11 @@
         <footer>
             
             <div class="row">
-               <div id="location">
-                   Location 
-                   Białystok
-                   ewelina.makowska0@gmail.com
+               <div class="location">
+                   <h3 class="upper">Location </h3>
+                   
+                  <p> Białystok<br>
+                   ewelina.makowska0@gmail.com</p>
                 </div>
                 
                 <div id="around-the-web">
@@ -259,12 +260,12 @@
                 </ul>
                     </div>
             </div>
-            
-            <div class="row">
-                Copyright Ewelina Makowska
-            </div>
-            
+        
         </footer>
+
+           <div class="end"> 
+                Copyright &copy Ewelina Makowska      
+            </div> 
         
     <script src="vendors/js/jquery-3.4.0.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
