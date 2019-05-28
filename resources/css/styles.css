@@ -487,13 +487,37 @@ footer {
     font-weight: 100;
     font-size: 70%
 }
+
+/*-----------------------------STICKY NAVIGATION--------------------------------------------------*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 60, 92, 0.95);
+ 
+    z-index: 9999;
+}
+
+/*   box-shadow: 0 2px 2px #f8f8f8;*/
+.sticky nav {
+    
+}
+
+.sticky nav a {
+    
+}
+
+.sticky nav a:hover {
+    
+}
 /*-----------------FONTS---------------------*/
 /*font-family: 'Montserrat', sans-serif; */
 
 /*---------------COLORS------------------------*/
 /*
 dark grey
-dark blue
+dark blue nav #003c5c
 blue
 warm
 white
