@@ -124,13 +124,6 @@ h2 {
     margin: 30px auto 0 auto;
 }
 
-#skills-gallery {
-    margin-left: 20vh;
-}
-
-.skill-img {
-    filter: brightness(200%);
-}
 
 #js--about {
     background-color: #2e91af;
@@ -166,6 +159,23 @@ h2 {
 
 #row-btn {
     margin-top: 10vh;
+}
+
+/*----------SKILLS GALLERY-----------------------*/
+
+
+.skill-img {
+max-width: 120px;
+}
+
+.skills-list {
+    list-style: none;
+    margin-left: 20vh;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin-right: 15vh;
 }
 
 /*------------------------------PROJECTS--------------------------*/
@@ -527,6 +537,19 @@ footer {
 
 .sticky nav a:hover {
     
+}
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+}
+
+.mobile-nav-icon i {
+    font-size: 300%;
+    color: #fff;
 }
 /*-----------------FONTS---------------------*/
 /*font-family: 'Montserrat', sans-serif; */

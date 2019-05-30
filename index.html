@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Montserrat:400,700&display=swap" rel="stylesheet">
         <title>Ewelina Makowska</title>
     </head>
@@ -18,8 +19,8 @@
             <nav>
                 <div class="row">
                     <div id="my-name">Ewelina Makowska</div>
-                    
-                    <ul class="main-nav">
+                      <a class="mobile-nav-icon js--nav-icon"><i class="icon ion-md-close"></i></a>
+                    <ul class="main-nav" id="js--main-nav">
                         <li><a href="#" id="js--about-li">About</a></li>
                         <li><a href="#" id="js--skills-li">Skills</a></li>
                         <li><a href="#" id="js--projects-li" >Projects</a></li>
@@ -27,7 +28,7 @@
                         <li><a href="#" id="js--contact-li">Contact</a></li>
                     </ul>
                 </div>
-                
+               
             </nav>
         </header>
         
@@ -49,35 +50,39 @@
         
          <section id="js--skills">
              <h1 class="h1-dark">Main Skills</h1>
-             <div id="skills-gallery">
-            <div class="row">
-                <div class="col span-1-of-4"><img src="resources/img/tech-icons/html.png" class="skill-img"/><br>HTML</div>
-                <div class="col span-1-of-4"><img src="resources/img/tech-icons/css.png" class="skill-img"/><br>CSS</div>
-                <div class="col span-1-of-4"><img src="resources/img/tech-icons/javascript.png" class="skill-img"/><br>JavaScript</div>
-                <div class="col span-1-of-4"><img src="resources/img/tech-icons/jquery.png" class="skill-img"/><br>JQuery</div>
-             </div>
              
              <div class="row">
-                <div class="col span-1-of-4"><img src="resources/img/tech-icons/github.png"/ class="skill-img"><br>Git</div>
-                <div class="col span-1-of-4"><img src="resources/img/tech-icons/photoshop.png" class="skill-img"/><br>Adobe Photoshop</div>
-                <div class="col span-1-of-4"><img src="resources/img/tech-icons/sql.png"/><br>MsSQL</div>
-                <div class="col span-1-of-4"><img src="resources/img/tech-icons/drawing.png" class="skill-img"/><br>Drawing</div>
+                 <ul class="skills-list">
+                     <li><img src="resources/img/tech-icons/html.png" class="skill-img"/><br>HTML</li>
+                          <li><img src="resources/img/tech-icons/css.png" class="skill-img"/><br>CSS</li>
+                          <li><img src="resources/img/tech-icons/javascript.png" class="skill-img"/><br>JavaScript</li>
+                          <li><img src="resources/img/tech-icons/jquery.png" class="skill-img"/><br>jQuery</li>
+                 </ul>
              </div>
-            </div>
+             
+               <div class="row">
+                 <ul class="skills-list">
+                     <li><img src="resources/img/tech-icons/github.png" class="skill-img"/><br>Git</li>
+                          <li><img src="resources/img/tech-icons/photoshop.png" class="skill-img"/><br>Adobe Photoshop</li>
+                          <li><img src="resources/img/tech-icons/sql.png" class="skill-img"/><br>MsSQL</li>
+                          <li><img src="resources/img/tech-icons/drawing.png" class="skill-img"/><br>Drawing</li>
+                 </ul>
+             </div>
+    
         </section>
         
          <section id="js--about">
              <h1>About</h1>
             <div class="row">
-                <div class="col span-1-of-2"><p class="about-text">I am an engineer of information technology interested in programming and design. Currently learning React.js and Express.js.</p>
+                <div class="col span-1-of-2"><p class="about-text">I am an engineer of information technology interested in programming and design. I would be happy performing any job which includes work with websites and web applications. Currently learning React.js and Express.js.</p>
 
 </div>
-                <div class="col span-1-of-2"><p class="about-text">If You have any questions or You want to hire me &mdash; please send me an email or contact me by a LinkedIn profile.</p></div>
+                <div class="col span-1-of-2"><p class="about-text"> If You have any questions or You want to hire me &mdash; please send me an email or contact me by a LinkedIn profile.</p></div>
              </div>
              
             <div class="row" id="row-btn">
              
-            <a href="resources/data/Ewelina%20Makowska-CV-English-Frontend.pdf" download class="btn" id="btn-resume"><i class="icon ion-md-download"></i>Resume</a>
+            <a href="resources/data/Ewelina-Makowska-Resume-Frontend.pdf" download class="btn" id="btn-resume"><i class="icon ion-md-download"></i>Resume</a>
         
              </div>
              

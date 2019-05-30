@@ -65,6 +65,11 @@ imageHobby6.addEventListener("mouseenter", () => {
 imageHobby6.addEventListener("mouseleave", () => {
     iH6Link.style.visibility = "hidden";
 });
+
+
+    
+
+
 /* --- TODO: implement a nice gallery
 const imageHobby1 = document.getElementById("imgh1");
 const imageHobby2 = document.getElementById("imgh2");
